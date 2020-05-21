@@ -1,1 +1,2 @@
-worker:  bundle exec rake jobs:work
+web:    lein run -m myapp.web
+worker: lein run -m myapp.worker
